@@ -1,2 +1,8 @@
 # Adaptive-Agricultural-Simulation-under-Altitude-Constraints-by-Reinforcement-Learning
 The project explores how artificial agents representing early agricultural communities may learn to survive across different altitude zones by balancing cultivation, movement, resource consumption, and population growth.
+
+The system combines a stochastic seed adaptation model with a reinforcement learning framework in which agents develop environmental memory based on previous cultivation outcomes. Each crop variety evolves according to environmental influence and probabilistic mutation, while agents attempt to maximize food efficiency under conditions of scarcity and uncertainty.
+
+Unlike traditional optimization systems focused solely on productivity, this prototype emphasizes adaptive behavior under limited information. The agents do not initially possess knowledge of the environment, nor the inner system for generating seeds, and progressively construct localized memories regarding crop efficiency at different altitudes. Resource pressure is represented through a tension model linked to food reserves and population requirements, influencing exploration and decision-making.
+
+The current implementation demonstrates the emergence of non-trivial behaviors such as localized settlement patterns, repeated exploitation of productive ecological zones, risk-sensitive movement, and partial environmental specialization of crop varieties. The project is intended as an exploratory foundation for future research in adaptive multi-agent systems, ecological simulation, and reinforcement learning under environmental uncertainty.
